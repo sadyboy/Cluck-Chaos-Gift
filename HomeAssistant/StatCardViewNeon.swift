@@ -599,7 +599,7 @@ struct DailyTasksView: View {
     
     var body: some View {
         ZStack {
-            DarkNeonBackgroundView()
+           
             
             VStack(spacing: 0) {
                 HStack {
@@ -636,6 +636,9 @@ struct DailyTasksView: View {
                 }
             }
         }
+        .background(
+            DarkNeonBackgroundView()
+        )
     }
 }
 

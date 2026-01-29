@@ -66,8 +66,6 @@ struct TimelineView: View {
     
     var body: some View {
         ZStack {
-           
-            
             VStack(spacing: 0) {
                 VStack(spacing: 16) {
                     HStack {
@@ -180,7 +178,7 @@ struct TimelineView: View {
                                 }
                             }
                         }
-                        .transition(.move(edge: .top).combined(with: .opacity))
+//                        .transition(.move(edge: .top).combined(with: .opacity))
                     }
                 }
                 .padding()
